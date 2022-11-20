@@ -8,7 +8,7 @@ def find_duplicates(x):
             if x[i] == x[a] and x[i] not in duplicates:
                 duplicates.append(x[i])
     return duplicates
-names = ["Hitesh", "Amit", "Divyansha", "Devyansh", 
-         "Hitesh", "Diksha", "Amit"]
+names = ["Mohit", "Neha", "Divya", "Ujjwal", 
+         "Mohit", "Diksha", "Neha"]
          
 print(find_duplicates(names))
